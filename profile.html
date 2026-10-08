@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PawWise | My Profile</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/app.js" defer></script>
+</head>
+
+<body data-page="profile">
+    <div class="layout">
+        <aside class="sidebar">
+            <a class="brand" href="pets.html">♥ PawWise</a>
+            <div id="user-role" class="muted"></div>
+            <nav class="nav" aria-label="Main navigation">
+                <a data-page-link="owners" href="owners.html">Pet Owners</a>
+                <a data-page-link="pets" href="pets.html">Pets</a>
+                <a data-page-link="consultations" href="consultations.html">Consultations</a>
+                <a data-page-link="medicines" href="medicines.html">Medicines</a>
+                <a data-page-link="grooming" href="grooming.html">Grooming</a>
+                <a data-page-link="billing" href="billing.html">Billing &amp; Receipts</a>
+                <a data-page-link="users" href="users.html">User Management</a>
+                <a data-page-link="settings" href="settings.html">Clinic Settings</a>
+                <a data-page-link="profile" href="profile.html">My Profile</a>
+            </nav>
+        </aside>
+        <main class="main">
+            <header class="top">
+                <div>
+                    <h1>My Profile</h1>
+                    <div class="muted"><span id="clinic-name"></span> · <span id="user-name"></span></div>
+                </div><button class="secondary" data-logout>Log out</button>
+            </header>
+            <section id="page-content" aria-live="polite"></section>
+            <footer class="footer">PawWise Pet Clinic Management · Records are stored in the clinic database.
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>

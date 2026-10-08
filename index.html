@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PawWise | Sign In</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/app.js" defer></script>
+</head>
+
+<body data-page="login">
+    <main class="auth">
+        <div class="brand">♥ PawWise</div>
+        <p class="muted">Pet Clinic Management System</p>
+        <h1>Welcome back</h1>
+        <form id="login-form">
+            <label for="username">Username</label>
+            <input id="username" name="username" required autocomplete="username">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" required autocomplete="current-password">
+            <button type="submit">Login</button>
+        </form>
+        <p id="login-error" class="message error hidden" role="alert"></p>
+        <p class="muted">Pet owners can go to the clinic to register them and their pet.</p>
+        <hr>
+    </main>
+</body>
+
+</html>
